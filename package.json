@@ -1,0 +1,22 @@
+{
+    "name": "fs-reporter",
+    "version": "1.0.0",
+    "description": "Analyzes given folder paths and stores results to a portable json database",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Marcelino Jorge Romero Karavia",
+    "license": "ISC",
+    "dependencies": {
+        "file-type": "^4.3.0",
+        "glob": "^7.1.2",
+        "graceful-fs": "^4.1.11",
+        "lodash": "^4.17.4",
+        "nedb": "^1.8.0",
+        "nedb-promise": "^2.0.1",
+        "read-chunk": "^2.0.0",
+        "rxjs": "^5.4.0",
+        "simple-node-logger": "^0.93.20"
+    }
+}
